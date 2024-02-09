@@ -1,0 +1,56 @@
+.courseContainer {
+    max-width: 95%; /* Cambia el porcentaje según lo deseado */
+    margin-left: auto;
+    margin-right: auto; /* Para centrar el contenedor */
+}
+
+.courseTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.courseTable th, .courseTable td {
+    border: 1px solid #ddd;
+    padding: 25px;
+    text-align: left;
+    position: relative;
+}
+
+.courseTable th {
+    background-color: #f2f2f2;
+}
+
+/* Ajusta el tamaño del texto según tus necesidades */
+.courseTable th, .courseTable td {
+    font-size: 22px;
+}
+
+/* Estilo para los botones de acción */
+.actionButtons {
+    display: flex;
+}
+
+.editButton, .deleteButton {
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: #4CAF50; /* Color verde para el botón de editar */
+    color: white;
+    border: none;
+    border-radius: 16px;
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.deleteButton {
+    background-color: #f44336; /* Color rojo para el botón de borrar */
+    left: 80px; /* Ajusta el espacio entre los botones */
+}
+
+/* Cambia el color de fondo de todas las celdas de la fila de encabezado */
+.courseTable th {
+    background-color: #d3d3d3;
+}

@@ -1,0 +1,139 @@
+.cart_container {
+  position: relative;
+  width: 100%;
+}
+
+.products_container {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  width: 75%;
+  margin-bottom: 6rem;
+  overflow-y: auto;
+}
+
+.products_topbar {
+  width: 100%;
+  border-radius: 0.3rem;
+  display: flex;
+}
+
+.products_topbar_title {
+  display: inline-block;
+  text-align: center;
+  width:52%;
+}
+
+.products_topbar_text {
+  display: inline-block;
+  text-align: center;
+  width:22%;
+}
+
+.products_topbar_textbar {
+  display: inline-block;
+  text-align: center;
+  width:2%;
+}
+
+.cart_product {
+  border-radius: 0.3rem;
+  width:100%;
+  height: 8rem;
+  overflow: hidden;
+  margin-top: 1.5rem;
+}
+
+.product_left {
+  width: 52%;
+}
+
+.product_img {
+  position: relative;
+  height:100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.remove_icon {
+  position: absolute;
+  display: block;
+  opacity: 0;
+  z-index: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.product_img:hover .remove_icon {
+  opacity: 0.8;
+}
+
+
+.product_img img{
+  position: absolute;
+  display: block;
+  z-index: 0;
+  height:100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.product_info {
+  flex: 1 1 auto;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.product_info_text {
+  width: 20rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.product_bar_container {
+  width: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product_counter {
+  width: 40%;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.3rem;
+}
+
+.product_counter_icons {
+  width: 2rem;
+}
+
+.product_center {
+  width: 22%;
+}
+
+.product_right {
+  width: 22%;
+  height: 100%;
+}
+
+.center_horizontally {
+  display: flex;
+  justify-content: center;
+  width: 100%
+}
+
+.cart_bottombar {
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+
+.total_price {
+  margin: 1rem;
+}

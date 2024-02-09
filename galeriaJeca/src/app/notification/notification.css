@@ -1,0 +1,46 @@
+.notification_container {
+  background-color: rgb(151, 150, 150);;
+  position: absolute;
+  z-index: 20;
+  border: 0.5rem solid;
+  padding: 1rem;
+  border-radius: 2rem;
+  top: 45%;
+  left: 8.2%;
+  width: 25%;
+  max-height: 40vh;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.notification_container_scroll{
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  max-height: 30vh;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.notification {
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  margin: 0.2rem;
+  height: auto;
+}
+
+.notification div {
+  
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.notification_description {
+  height: min-content;
+  
+}
+
+.notification_description:hover {
+  color: rgb(0, 155, 149);
+}

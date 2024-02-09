@@ -1,0 +1,60 @@
+.admin_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  flex: 1 0 auto
+}
+
+.input_image {
+  display: inline-block;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 1rem;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='10rem' height='10rem' viewBox='0 0 118 118' fill='none'><path d='M104.889 0H13.1111C5.83444 0 0 5.9 0 13.1111V104.889C0 112.1 5.83444 118 13.1111 118H104.889C112.1 118 118 112.1 118 104.889V13.1111C118 5.9 112.1 0 104.889 0ZM91.7778 65.5556H65.5556V91.7778H52.4444V65.5556H26.2222V52.4444H52.4444V26.2222H65.5556V52.4444H91.7778V65.5556Z' fill='%23C2FEFC'/></svg>");
+  background-repeat: no-repeat;
+  background-position: 50%, 50%;
+}
+
+.hide_input {
+  display: none;
+}
+
+#imagePreview {
+  display: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  object-fit: contain;
+}
+
+.right_text {
+  width: 15rem;
+  text-align: end;
+  margin-right: 0.5rem;
+}
+
+.description {
+  width: 80%;
+  height: 150%;
+  resize: vertical;
+}
+
+.input_section {
+  display: flex;
+  justify-content:space-evenly;
+  width: 50%;
+  height: fit-content;
+  min-height: fit-content;
+}
+
+.input_item {
+  margin: 1rem;
+}
+
+.clean_btn {
+  margin: 0;
+  margin-left: 1rem;
+  height: 100%;
+  border-radius: 0.5rem;
+}

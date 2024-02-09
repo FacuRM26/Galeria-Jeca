@@ -1,0 +1,43 @@
+.gallery_page {
+  width: 100%;
+}
+
+.gallery_title {
+  height: 7rem;
+}
+
+.gallery_tag_title {
+  text-align: center;
+  text-decoration-line: underline;
+  text-underline-offset: 0.5rem;
+  line-height: 3.5rem;
+}
+
+.gallery_container {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.img_row {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  min-width: none;
+}
+
+.gallery_img {
+  overflow: hidden;
+  height: 20rem;
+  width: 20rem;
+  margin: 1rem;
+  aspect-ratio: 1/1;
+}
+
+.gallery_img img{
+  height: 20rem;
+  width: 20rem;
+  object-fit: cover;
+}
